@@ -1,0 +1,47 @@
+/home/hr/openmsall/OpenMS/source/MATH/MISC/MSNumpress.C: In function ‘size_t ms::numpress::MSNumpress::encodeLinear(const double*, size_t, unsigned char*, double)’:
+/home/hr/openmsall/OpenMS/source/MATH/MISC/MSNumpress.C:278:83: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+/home/hr/openmsall/OpenMS/source/METADATA/MSQuantifications.C:202:8: warning: unused parameter ‘dps’ [-Wunused-parameter]
+In file included from /home/hr/openmsall/builds/contrib_seqan/include/seqan/seq_io.h:64:0,
+                 from /home/hr/openmsall/OpenMS/source/FORMAT/FASTAFile.C:41:
+/home/hr/openmsall/builds/contrib_seqan/include/seqan/seq_io/sequence_stream_impl.h: In member function ‘void seqan::SequenceStreamImpl_::_guessFileTypeAndFormatForReadingAndInitialize()’:
+/home/hr/openmsall/builds/contrib_seqan/include/seqan/seq_io/sequence_stream_impl.h:228:16: warning: enumeration value ‘FILE_TYPE_GZ’ not handled in switch [-Wswitch]
+/home/hr/openmsall/builds/contrib_seqan/include/seqan/seq_io/sequence_stream_impl.h:228:16: warning: enumeration value ‘FILE_TYPE_BZ2’ not handled in switch [-Wswitch]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/QUANTITATION/ProteinResolver.C: In member function ‘void OpenMS::ProteinResolver::resolveID(std::vector<OpenMS::PeptideIdentification>&)’:
+/home/hr/openmsall/OpenMS/source/ANALYSIS/QUANTITATION/ProteinResolver.C:121:10: warning: variable ‘found_peptides’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/QUANTITATION/ProteinResolver.C: In member function ‘void OpenMS::ProteinResolver::resolveConsensus(OpenMS::ConsensusMap&)’:
+/home/hr/openmsall/OpenMS/source/ANALYSIS/QUANTITATION/ProteinResolver.C:163:10: warning: variable ‘found_peptides’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/MAPMATCHING/PoseClusteringAffineSuperimposer.C: In member function ‘virtual void OpenMS::PoseClusteringAffineSuperimposer::run(const OpenMS::ConsensusMap&, const OpenMS::ConsensusMap&, OpenMS::TransformationDescription&)’:
+/home/hr/openmsall/OpenMS/source/ANALYSIS/MAPMATCHING/PoseClusteringAffineSuperimposer.C:714:16: warning: variable ‘rt_low_low’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/MAPMATCHING/PoseClusteringAffineSuperimposer.C:716:16: warning: variable ‘rt_low_high’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/MAPMATCHING/PoseClusteringAffineSuperimposer.C:717:16: warning: variable ‘rt_high_low’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/MAPMATCHING/PoseClusteringAffineSuperimposer.C:719:16: warning: variable ‘rt_high_high’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/MAPMATCHING/PoseClusteringShiftSuperimposer.C: In member function ‘virtual void OpenMS::PoseClusteringShiftSuperimposer::run(const OpenMS::ConsensusMap&, const OpenMS::ConsensusMap&, OpenMS::TransformationDescription&)’:
+/home/hr/openmsall/OpenMS/source/ANALYSIS/MAPMATCHING/PoseClusteringShiftSuperimposer.C:345:16: warning: variable ‘shift_low’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/MAPMATCHING/PoseClusteringShiftSuperimposer.C:347:16: warning: variable ‘shift_high’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/include/OpenMS/ANALYSIS/ID/AccurateMassSearchEngine.h: In copy constructor ‘OpenMS::AccurateMassSearchResult::AccurateMassSearchResult(const OpenMS::AccurateMassSearchResult&)’:
+/home/hr/openmsall/OpenMS/include/OpenMS/ANALYSIS/ID/AccurateMassSearchEngine.h:127:14: warning: ‘OpenMS::AccurateMassSearchResult::source_feature_index_’ will be initialized after [-Wreorder]
+/home/hr/openmsall/OpenMS/include/OpenMS/ANALYSIS/ID/AccurateMassSearchEngine.h:126:14: warning:   ‘OpenMS::Size OpenMS::AccurateMassSearchResult::matching_index_’ [-Wreorder]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/AccurateMassSearchEngine.C:84:1: warning:   when initialized here [-Wreorder]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/AccurateMassSearchEngine.C: At global scope:
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/AccurateMassSearchEngine.C:1063:6: warning: unused parameter ‘addstr’ [-Wunused-parameter]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/AccurateMassSearchEngine.C:1063:6: warning: unused parameter ‘components’ [-Wunused-parameter]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/MetaboliteSpectralMatching.C: In member function ‘void OpenMS::MetaboliteSpectralMatching::run(OpenMS::MSExperiment<>&, OpenMS::MzTab&)’:
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/MetaboliteSpectralMatching.C:446:24: warning: unused variable ‘max_hyper_score’ [-Wunused-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/MetaboliteSpectralMatching.C:447:18: warning: unused variable ‘best_idx’ [-Wunused-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/MetaboliteSpectralMatching.C: In member function ‘void OpenMS::MetaboliteSpectralMatching::exportMzTab_(const std::vector<OpenMS::SpectralMatch>&, OpenMS::MzTab&)’:
+/home/hr/openmsall/OpenMS/source/ANALYSIS/ID/MetaboliteSpectralMatching.C:551:10: warning: unused variable ‘id_group’ [-Wunused-variable]
+/home/hr/openmsall/OpenMS/source/FILTERING/DATAREDUCTION/FeatureFindingMetabo.C: In member function ‘OpenMS::DoubleReal OpenMS::FeatureFindingMetabo::scoreRT_(const OpenMS::MassTrace&, const OpenMS::MassTrace&)’:
+/home/hr/openmsall/OpenMS/source/FILTERING/DATAREDUCTION/FeatureFindingMetabo.C:652:16: warning: variable ‘rt_range’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/FILTERING/DATAREDUCTION/MassTraceDetection.C:188:6: warning: unused parameter ‘lower_sd_bound’ [-Wunused-parameter]
+/home/hr/openmsall/OpenMS/source/FILTERING/DATAREDUCTION/MassTraceDetection.C: In member function ‘void OpenMS::MassTraceDetection::run(const OpenMS::MSExperiment<OpenMS::Peak1D>&, std::vector<OpenMS::MassTrace>&)’:
+/home/hr/openmsall/OpenMS/source/FILTERING/DATAREDUCTION/MassTraceDetection.C:377:32: warning: unused variable ‘left_mz’ [-Wunused-variable]
+/home/hr/openmsall/OpenMS/source/FILTERING/DATAREDUCTION/MassTraceDetection.C:378:32: warning: unused variable ‘right_mz’ [-Wunused-variable]
+/home/hr/openmsall/OpenMS/source/FILTERING/DATAREDUCTION/MassTraceDetection.C:347:20: warning: unused variable ‘ftl_mean’ [-Wunused-variable]
+/home/hr/openmsall/OpenMS/source/FILTERING/DATAREDUCTION/MassTraceDetection.C:290:10: warning: unused variable ‘min_flank_scans’ [-Wunused-variable]
+/home/hr/openmsall/OpenMS/source/TRANSFORMATIONS/RAW2PEAK/OptimizePeakDeconvolution.C: In member function ‘bool OpenMS::OptimizePeakDeconvolution::optimize(std::vector<OpenMS::PeakShape>&, OpenMS::OptimizePeakDeconvolution::Data&)’:
+/home/hr/openmsall/OpenMS/source/TRANSFORMATIONS/RAW2PEAK/OptimizePeakDeconvolution.C:403:10: warning: variable ‘num_peaks’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/TRANSFORMATIONS/RAW2PEAK/TwoDOptimization.C: In static member function ‘static OpenMS::Int OpenMS::TwoDOptimization::jacobian2D_(const gsl_vector*, void*, gsl_matrix*)’:
+/home/hr/openmsall/OpenMS/source/TRANSFORMATIONS/RAW2PEAK/TwoDOptimization.C:258:16: warning: variable ‘computed_signal’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/TRANSFORMATIONS/RAW2PEAK/TwoDOptimization.C:258:51: warning: variable ‘experimental_signal’ set but not used [-Wunused-but-set-variable]
+/home/hr/openmsall/OpenMS/source/ANALYSIS/OPENSWATH/PeakPickerMRM.C: In member function ‘void OpenMS::PeakPickerMRM::integratePeaks_(const RichPeakChromatogram&)’:
+/home/hr/openmsall/OpenMS/source/ANALYSIS/OPENSWATH/PeakPickerMRM.C:396:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
