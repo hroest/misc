@@ -1,0 +1,83 @@
+Global timeout: self 0.848053, child 1046.005371
+---
+bug: anti-simplify
+model: |
+  %148 = icmp slt i64 %147, 0, !dbg !5185
+  -->  false
+stack: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/IndexedMzMLFile.cpp:148:0
+ncore: 2
+core: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/IndexedMzMLFile.cpp:148:0
+    - signed addition overflow
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/IndexedMzMLFile.cpp:151:0
+    - buffer overflow
+---
+bug: anti-simplify
+model: |
+  %87 = icmp slt i64 %86, 0, !dbg !5167
+  -->  false
+stack: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/IndexedMzMLFile.cpp:205:0
+ncore: 2
+core: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/IndexedMzMLFile.cpp:205:0
+    - signed addition overflow
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/IndexedMzMLFile.cpp:208:0
+    - buffer overflow
+---
+bug: anti-simplify
+model: |
+  %17 = icmp slt i64 %16, 0, !dbg !6919
+  -->  false
+stack: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/HANDLERS/IndexedMzMLDecoder.cpp:73:0
+ncore: 1
+core: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/HANDLERS/IndexedMzMLDecoder.cpp:73:0
+    - signed addition overflow
+---
+bug: anti-simplify
+model: |
+  %146 = icmp eq %"class.xercesc_3_1::DOMNode"* %call101, null, !dbg !6955
+  -->  false
+stack: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/HANDLERS/IndexedMzMLDecoder.cpp:199:0
+ncore: 1
+core: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/HANDLERS/IndexedMzMLDecoder.cpp:197:0
+    - null pointer dereference
+---
+bug: anti-simplify
+model: |
+  %213 = icmp eq %"class.xercesc_3_1::DOMNode"* %call73, null, !dbg !6997
+  -->  false
+stack: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/HANDLERS/IndexedMzMLDecoder.cpp:207:0
+ncore: 1
+core: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/HANDLERS/IndexedMzMLDecoder.cpp:192:0
+    - null pointer dereference
+---
+bug: anti-simplify
+model: |
+  %85 = icmp eq %"class.xercesc_3_1::DOMNode"* %call63, null, !dbg !9448
+  -->  false
+stack: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/HANDLERS/MzMLSpectrumDecoder.cpp:212:0
+ncore: 1
+core: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms/source/FORMAT/HANDLERS/MzMLSpectrumDecoder.cpp:210:0
+    - null pointer dereference
+---
+bug: anti-simplify
+model: |
+  %502 = icmp eq %"class.OpenMS::SpectrumWidget"* %target_window.3, null, !dbg !68420
+  -->  false
+stack: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms_gui/source/VISUAL/APPLICATIONS/TOPPViewBase.cpp:1446:0
+ncore: 1
+core: 
+  - /media/data/var/openms/source/trunkOpenMS/src/openms_gui/include/OpenMS/VISUAL/SpectrumWidget.h:102:0
+    - null pointer dereference
+Global timeout: self 0.680042, child 1002.310640
